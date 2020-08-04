@@ -1,0 +1,15 @@
+{
+  "shewrapara": ["kazipara", "monipur", "taltola"],
+  "kazipara": ["monipur", "mirpur_10","shewrapara"],
+  "monipur": ["kazipara","shewrapara","mirpur_10","mirpur_2"],
+  "taltola": ["shewrapara", "agargaon"],
+  "mirpur_10": ["kazipara", "monipur", "mirpur_2"],
+  "mirpur_2": ["mirpur_10","monipur", "mirpur_1"],
+  "agargaon": ["taltola","mohakhali","farmgate", "shymoli"],
+  "mirpur_1": ["mirpur_2","technical"],
+  "mohakhali":["agargaon"],
+  "farmgate": ["agargaon","shymoli","shahbag"],
+  "shymoli": ["agargaon","farmgate","technical"],
+  "technical": ["mirpur_1","shymoli"],
+  "shahbag": ["farmgate"]
+}
