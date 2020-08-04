@@ -1,6 +1,5 @@
 import json
 from queue import Queue
-import timeit
 
 #loading the graph
 
